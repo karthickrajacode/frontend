@@ -1,7 +1,6 @@
 import React, { createContext, useState } from "react";
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
-import reportWebVitals from './reportWebVitals.js';
 
 export const context = createContext({ isAuthorized: false });
 
