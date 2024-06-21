@@ -87,7 +87,7 @@ const Login = () => {
               </div>
             </div>
             <button type="submit" onClick={handleLogin}>
-              Register
+              Login
             </button>
             <Link to={"/register"}>Register Now</Link>
           </form>
