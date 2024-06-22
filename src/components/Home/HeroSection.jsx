@@ -29,17 +29,16 @@ const HeroSection = () => {
         },
     ];
     return (
-        <div className='herosection'>
+        <div className='heroSection'>
             <div className="container">
                 <div className="title">
                     <h1>Find a job that suits</h1>
                     <h1>your interest and skils</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, placeat nisi praesentium nam blanditiis a suscipit, soluta dolores ratione quis sapiente expedita voluptatibus asperiores aspernatur repellendus quia vero nihil aperiam.
-                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, placeat nisi praesentium nam blanditiis a suscipit, soluta dolores ratione quis sapiente expedita voluptatibus asperiores aspernatur repellendus quia vero nihil aperiam.</p>
                 </div>
-            </div>
-            <div className="image">
-                <img src='heroS.jpg' alt="hero " />
+                <div className="image">
+                    <img src='/heroS.jpg' alt="hero " />
+                </div>
             </div>
             <div className="details">
                 {details.map((element) => {
