@@ -15,14 +15,14 @@ const PopularCompanies = () => {
         {
             id: 2,
             title: "Tesla",
-            location: "Street 10 Karachi, Pakistan",
+            location: "Street 10 Bangalore, INDIA",
             openPositions: 5,
             icon: <SiTesla />,
         },
         {
             id: 3,
             title: "Apple",
-            location: "Street 10 Karachi, Pakistan",
+            location: "Street 10 wasington, USA",
             openPositions: 20,
             icon: <FaApple />,
         },
