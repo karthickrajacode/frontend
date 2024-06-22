@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from "../../main";
-import Navigate from "react-router-dom";
+import { Navigate } from "react-router-dom";
 import HeroSection from "./HeroSection";
 import HowItWorks from "./HowItWorks";
 import PopularCategories from "./PopularCategories";
@@ -14,7 +14,7 @@ const Home = () => {
     }
     return (
         <>
-            <section className='homepage page '>
+            <section className='homePage page'>
                 <HeroSection />
                 <HowItWorks />
                 <PopularCategories />
