@@ -38,7 +38,7 @@ const App = () => {
   }, [isAuthorized]);
 
   return (
-    <>
+    <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -56,7 +56,7 @@ const App = () => {
         <Footer />
         <Toaster />
       </BrowserRouter>
-    </>
+    </div>
   );
 };
 
