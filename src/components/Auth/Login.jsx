@@ -18,7 +18,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://127.0.0.1:4000/api/v1/user/login",
+        "http://localhost:4000/api/v1/user/login",
         { email, role, password },
         {
           headers: {
@@ -37,8 +37,8 @@ const Login = () => {
     }
   };
 
-  if(isAuthorized){
-    return <Navigate to={'/'}/>
+  if (isAuthorized) {
+    return <Navigate to={'/'} />
   }
 
 
@@ -57,7 +57,7 @@ const Login = () => {
                 <select value={role} onChange={(e) => setRole(e.target.value)}>
                   <option value="">Select Role</option>
                   <option value="Employer">Employer</option>
-                  <option value="Job Seeker">Job Seeker</option>
+                  <option value="job seeker">Job Seeker</option>
                 </select>
                 <FaRegUser />
               </div>
@@ -99,5 +99,5 @@ const Login = () => {
     </>
   );
 };
- 
+
 export default Login;
