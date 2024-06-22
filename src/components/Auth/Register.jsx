@@ -22,7 +22,7 @@ const Register = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://127.0.0.1:4000/api/v1/user/register",
+        "http://localhost:4000/api/v1/user/register",
         { name, phone, email, role, password },
         {
           headers: {
@@ -63,7 +63,7 @@ const Register = () => {
                 <select value={role} onChange={(e) => setRole(e.target.value)}>
                   <option value="">Select Role</option>
                   <option value="Employer">Employer</option>
-                  <option value="Job Seeker">Job Seeker</option>
+                  <option value="job seeker">Job Seeker</option>
                 </select>
                 <FaRegUser />
               </div>
